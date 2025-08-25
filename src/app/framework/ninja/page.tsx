@@ -186,8 +186,8 @@ export default function Page() {
 
           <div className="card-lite p-3 mb-4 mt-4" style={{ background:"#0f172a", border:"1px solid #38bdf8", color:"#e0f2fe" }}>
             <span className="small">
-              Agar gak keteteran saat kondisi kantor berubah, mulai bangun sumber income kedua sekarang.
-              <strong> Ini isi & manfaat dan bonus yang langsung kamu pegang dari Framework NINJA 14 Hari:</strong>
+              Agar gak keteteran saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang.
+              <strong> Inilah isi, manfaat, dan bonus eksklusif yang langsung kamu dapatkan dari Framework NINJA:</strong>
             </span>
           </div>
 
