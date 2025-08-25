@@ -73,7 +73,7 @@ export default function Page() {
             <div className="book-card mt-4 p-4">
               <img
                 className="book-img"
-                src="https://i.postimg.cc/k5588rRd/cover-ebook1.png"
+                src="https://storage.googleapis.com/lp-my-assets/cover%20ebook1.webp"
                 alt="Cover Ebook Framework NINJA – Jual Produk Digital dalam 14 Hari"
                 width={280}
                 height={350}
