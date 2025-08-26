@@ -228,3 +228,108 @@ body, p, .micro {
 ul .pain-pleasure {
   margin-bottom: 10px;
 }
+
+/* Countdown with labeled segments */
+.countdown,
+.countdown-mini {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.cd-seg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40px;
+}
+
+.cd-num {
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1; /* angka rata */
+  color: #fbbf24; /* kuning */
+  background: #0b1224; /* gelap */
+  padding: 4px 8px;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+.cd-label {
+  font-size: 0.65rem;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+/* versi mini (sticky bar) */
+.countdown-mini .cd-seg {
+  min-width: 34px;
+}
+
+.countdown-mini .cd-num {
+  padding: 2px 6px;
+}
+
+.countdown-mini .cd-label {
+  font-size: 0.6rem;
+}
+
+/* ===== COUNTDOWN BESAR (di bawah harga & tombol) ===== */
+.countdown-wrap {
+  margin-top: 12px;
+}
+
+.countdown-title {
+  font-weight: 700;
+  color: #e5e7eb;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.countdown-lg {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.cd-lg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  background: #0b1224;
+  border: 1px solid rgba(255, 255, 255, .07);
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .25);
+}
+
+.cd-lg-num {
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  color: #fbbf24; /* kuning */
+}
+
+.cd-lg-label {
+  margin-top: 4px;
+  font-size: .72rem;
+  color: #9ca3af;
+}
+
+/* responsif */
+@media (min-width: 768px) {
+  .cd-lg {
+    min-width: 72px;
+    padding: 12px 14px;
+  }
+
+  .cd-lg-num {
+    font-size: 1.9rem;
+  }
+}
+
+
