@@ -101,9 +101,9 @@ export default function Page() {
                 <div className="card-lite p-3 h-100">
                   <div className="d-flex align-items-center mb-2">
                     <span className="feature-icon"><i className="bi bi-clock-history" /></span>
-                    <h6 className="m-0 short-benefit-title">Gak Ada Waku</h6>
+                    <h6 className="m-0 short-benefit-title">Langkah Praktis</h6>
                   </div>
-                  <p className="mb-0 micro">Jadwal padat? Cukup <strong>1–2 jam/hari</strong>, step-by-step.</p>
+                  <p className="mb-0 micro">Step-by-step jelas dari <strong>pilih niche sampai ke jualan.</strong></p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -144,8 +144,8 @@ export default function Page() {
             <div className="kicker mb-2">Kenapa framework ini relevan?</div>
             <div className="card-lite p-4">
               <p className="mb-3">
-                <strong>Framework ini relevan karena dibuat khusus untuk pekerja kantoran yang gajinya mentok, waktunya terbatas, dan sering bingung mulai.</strong>
-                Itu bukan kurang kerja kerasya tapi <em>salah peta alias gatau arah</em>. Framework NINJA memberikan jalur 14 hari yang realistis dan ringan untuk dikerjakan setelah jam kantor.
+                <strong>Framework ini relevan karena dibuat khusus untuk pekerja kantoran yang gajinya mentok, waktunya terbatas, dan sering bingung mulai. </strong>
+                Masalahnya bukan kurang kerja keras, tapi karena <em>salah peta alias gatau arah</em>. Framework NINJA memberikan jalur 14 hari yang realistis dan ringan untuk dikerjakan setelah jam kantor.
               </p>
               <div className="row g-4 mt-1">
                 <div className="col-md-6">
@@ -186,14 +186,14 @@ export default function Page() {
 
           <div className="card-lite p-3 mb-4 mt-4" style={{ background:"#0f172a", border:"1px solid #38bdf8", color:"#e0f2fe" }}>
             <span className="small">
-              Agar gak keteteran saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang.
+              Agar gak kelabakan saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang.
               <strong> Inilah isi, manfaat, dan bonus eksklusif yang langsung kamu dapatkan dari Framework NINJA:</strong>
             </span>
           </div>
 
           {/* WHAT INSIDE / DETAIL BENEFIT */}
           <section className="mt-5">
-            <div className="kicker mb-2">Yang kamu dapat</div>
+            <div className="kicker mb-2">Apa yang kamu dapat?</div>
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="card-lite p-4 h-100">
@@ -203,7 +203,8 @@ export default function Page() {
                     <li><strong>Validasi simpel</strong> → cukup polling mini atau smoke test (20–50 visit) untuk pastikan ide laku, bukan sekadar feeling.</li>
                     <li><strong>Bikin produk v1.0 cepat</strong> → tinggal pakai template siap pakai + bantuan AI, nggak perlu mulai dari nol.</li>
                     <li><strong>Atur harga psikologis</strong> → tampilkan harga normal sebagai <em>anchor</em>, lalu kasih <em>early-bird 48 jam</em> biar calon pembeli merasa hemat & takut ketinggalan.</li>
-                    <li><strong>Launch kecil, iterasi cepat</strong> → rilis ke circle kecil, dapetin feedback nyata, langsung upgrade ke versi 1.1.</li>
+                    <li><strong>Launch kecil, iterasi cepat</strong> → rilis ke circle kecil, dapetin feedback nyata, langsung upgrade ke versi selanjutnya.</li>
+                    <li>Dan masih banyak lagi.</li>
                   </ul>
                 </div>
               </div>
@@ -217,8 +218,8 @@ export default function Page() {
                     <li><strong>Product Creation Planner</strong> → rencana praktis bikin produk dari nol.</li>
                     <li><strong>Prompt ChatGPT siap pakai</strong> → percepat riset, copy, & promosi.</li>
                     <li><strong>Ebook: 20+ Niche Profitable</strong> → ide niche terbukti cuan.</li>
-                    <li><strong>Ebook: 15 Ide Produk Digital Cuan Tinggi</strong> → inspirasi produk siap jual.</li>
-                    <li><strong>Group Whatsapp Eksklusif</strong> → tempat diskusi & tanya jawab bersama member lainnya.</li>
+                    <li><strong>Ebook: 15 Ide Produk Digital Cuan Tinggi</strong> → inspirasi ide produk digital siap jual.</li>
+                    <li><strong>Group Whatsapp Eksklusif</strong> → tempat diskusi, sharing & tanya jawab bersama member lainnya agar tetap terhubung.</li>
                   </ul>
                 </div>
               </div>
@@ -244,7 +245,7 @@ export default function Page() {
                       <i className="bi bi-patch-check-fill text-success fs-3 me-3" />
                       <div className="micro">
                         <div><strong>Dukungan selamanya</strong> via group whatsapp.</div>
-                        <div className="mt-2"><strong>Free update versi selanjutnya</strong> otomatis saat rilis berikutnya.</div>
+                        <div className="mt-1"><strong>Free update versi selanjutnya</strong> otomatis saat rilis berikutnya.</div>
                       </div>
                     </div>
                   </div>
@@ -272,7 +273,7 @@ export default function Page() {
                 </div>
                 {/* Tombol */}
                 <div className="text-center text-md-end w-100 w-md-auto">
-                  <a id="ctaTop" href={CHECKOUT_LINK} className="btn btn-cta btn-lg px-4" onClick={handleClickCTA}>
+                  <a id="ctaTop" target="_blank" href={CHECKOUT_LINK} className="btn btn-cta btn-lg px-4" onClick={handleClickCTA}>
                     <i className="bi bi-cart-check me-1" /> Dapatkan Sekarang
                   </a>
                   <div className="micro mt-2"><i className="bi bi-shield-lock me-1" />Pembayaran aman via tribelio</div>
@@ -360,7 +361,7 @@ export default function Page() {
             <div className="fw-bold">Early-Bird <span className="text-warning">Rp79.000</span></div>
             <div style={{ color: '#E5E7EB' }}>Sisa waktu: <span id="countdownMini">—:—:—</span></div>
           </div>
-          <a href={CHECKOUT_LINK} className="btn btn-cta btn-lg" onClick={handleClickCTA}>
+          <a href={CHECKOUT_LINK} target="_blank" className="btn btn-cta btn-lg" onClick={handleClickCTA}>
             <i className="bi bi-cart" /> Beli
           </a>
         </div>
