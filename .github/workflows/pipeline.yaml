@@ -34,5 +34,5 @@ jobs:
           script: |
             cd app/marketing-app
             git pull origin main
-            /home/faisalilhami/.nvm/versions/node/v22.18.0/bin/npm run build
-            docker-compose up -d --build
+            npm run build
+            docker compose up -d --build
