@@ -227,7 +227,7 @@ export default function Page() {
 
           {/* USP / ALASAN HARUS BELI */}
           <section className="mt-5">
-            <div className="kicker mb-2">Kenapa harus sekarang?</div>
+            <div className="kicker mb-2">Kenapa harus framework NINJA?</div>
             <div className="card-lite p-4">
               <div className="row g-4 align-items-center">
                 <div className="col-md-6">
