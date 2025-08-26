@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import FacebookPixel from "@/components/FacebookPixel";
 
-const CHECKOUT_LINK = "http://tribel.io/checkout-framework-ninja";
+const CHECKOUT_LINK = "https://tribel.io/checkout-framework-ninja";
 const TOTAL_QUOTA = 100;
 const SEED_CLAIMED = 15;
 
