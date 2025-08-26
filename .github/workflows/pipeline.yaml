@@ -24,7 +24,7 @@ jobs:
     needs: prepare
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to server via SSH
+      - name: Deploy to server via SSH Agent
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.HOST }}
