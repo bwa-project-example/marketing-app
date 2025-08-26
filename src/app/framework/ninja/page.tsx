@@ -227,7 +227,7 @@ export default function Page() {
 
           {/* USP / ALASAN HARUS BELI */}
           <section className="mt-5">
-            <div className="kicker mb-2">Kenapa harus sekarang</div>
+            <div className="kicker mb-2">Kenapa harus sekarang?</div>
             <div className="card-lite p-4">
               <div className="row g-4 align-items-center">
                 <div className="col-md-6">
@@ -267,7 +267,7 @@ export default function Page() {
                     <span className="strike">Rp149.000</span> <span>Rp79.000</span>
                   </div>
                   <div className="micro mt-1">
-                    Berakhir dalam <span id="countdown" className="fw-bold text-warning">—:—:—</span> • <span id="quotaText">Kuota 25 pembeli pertama</span>
+                    Berakhir dalam <span id="countdown" className="fw-bold text-warning">—:—:—</span> • <span id="quotaText">Kuota 100 pembeli pertama</span>
                   </div>
                 </div>
                 {/* Tombol */}
@@ -275,7 +275,7 @@ export default function Page() {
                   <a id="ctaTop" href={CHECKOUT_LINK} className="btn btn-cta btn-lg px-4" onClick={handleClickCTA}>
                     <i className="bi bi-cart-check me-1" /> Dapatkan Sekarang
                   </a>
-                  <div className="micro mt-2"><i className="bi bi-shield-lock me-1" />Pembayaran aman • Akses seumur hidup</div>
+                  <div className="micro mt-2"><i className="bi bi-shield-lock me-1" />Pembayaran aman via tribelio</div>
                 </div>
               </div>
 
