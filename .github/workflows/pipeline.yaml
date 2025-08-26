@@ -22,15 +22,17 @@ jobs:
 
   deploy:
     needs: prepare
-    name: Multiple commands
-    uses: appleboy/ssh-action@v1
-    with:
-      host: ${{ secrets.HOST }}
-      username: ${{ secrets.USERNAME }}
-      key: ${{ secrets.KEY }}
-      port: 22
-      script: |
-        cd /app/marketing-app
-        git pull origin main
-        npm run build
-        docker-compose up -d --build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to server via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: 22
+          script: |
+            cd /app/marketing-app
+            git pull origin main
+            npm run build
+            docker-compose up -d --build
