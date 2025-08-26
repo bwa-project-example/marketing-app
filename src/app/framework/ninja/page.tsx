@@ -460,7 +460,7 @@ export default function Page() {
 
       {/* Sticky CTA mobile */}
       <div className="sticky-cta d-md-none p-2">
-        <div className="d-flex align-items-center justify-content-between gap-2 mb-2">
+        <div className="d-flex align-items-center justify-content-between gap-2 mb-3">
           <div className="micro ps-2">
             <div className="fw-bold">Early-Bird <span className="text-warning">Rp79.000</span></div>
             <div style={{color: '#E5E7EB'}}>
