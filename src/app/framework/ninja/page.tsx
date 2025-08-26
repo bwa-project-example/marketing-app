@@ -400,9 +400,16 @@ export default function Page() {
               <h4 className="mb-2 short-benefit-title">Siap Gaspol Abis Jam Kantor?</h4>
               <p className="micro mb-3">Ambil harga early-bird sebelum waktu/kuota habis. Beli sekali, akses seumur
                 hidup.</p>
-              <a target="_blank" href={CHECKOUT_LINK} className="btn btn-cta btn-lg">
-                <i className="bi bi-lightning-charge-fill me-1"/> Ambil Early-Bird Rp79.000
-              </a>
+              <div className=" d-lg-block d-none">
+                <a target="_blank" href={CHECKOUT_LINK} className="btn btn-cta btn-lg">
+                  <i className="bi bi-lightning-charge-fill me-1"/> Ambil Early-Bird Rp79.000
+                </a>
+              </div>
+              <div className=" d-lg-none d-block">
+                <a target="_blank" href={CHECKOUT_LINK} className="btn btn-cta btn-lg mb-3">
+                  <i className="bi bi-lightning-charge-fill me-1"/> Ambil Early-Bird Rp79.000
+                </a>
+              </div>
             </div>
           </section>
 
