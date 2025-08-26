@@ -90,12 +90,12 @@ export default function Page() {
               </p>
               <div className="d-flex flex-column flex-md-row align-items-center gap-3 justify-content-center mt-2">
                 <a href="#harga" className="btn btn-cta btn-lg">
-                  <i className="bi bi-lightning-charge-fill me-1" /> Ambil Early-Bird Rp79.000
+                  <i className="bi bi-lightning-charge-fill me-1"/> Ambil Early-Bird Rp79.000
                 </a>
                 <div className="text-start micro">
-                  <div><i className="bi bi-shield-check me-1" />Akses seumur hidup</div>
-                  <div><i className="bi bi-headset me-1" />Support selamanya</div>
-                  <div><i className="bi bi-arrow-repeat me-1" />Free update versi</div>
+                  <div><i className="bi bi-shield-check me-1"/>Akses seumur hidup</div>
+                  <div><i className="bi bi-headset me-1"/>Support selamanya</div>
+                  <div><i className="bi bi-arrow-repeat me-1"/>Free update versi</div>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function Page() {
               <div className="col-md-4">
                 <div className="card-lite p-3 h-100">
                   <div className="d-flex align-items-center mb-2">
-                    <span className="feature-icon"><i className="bi bi-clock-history" /></span>
+                    <span className="feature-icon"><i className="bi bi-clock-history"/></span>
                     <h6 className="m-0 short-benefit-title">Langkah Praktis</h6>
                   </div>
                   <p className="mb-0 micro">Step-by-step jelas dari <strong>pilih niche sampai ke jualan.</strong></p>
@@ -116,16 +116,17 @@ export default function Page() {
               <div className="col-md-4">
                 <div className="card-lite p-3 h-100">
                   <div className="d-flex align-items-center mb-2">
-                    <span className="feature-icon"><i className="bi bi-cpu" /></span>
+                    <span className="feature-icon"><i className="bi bi-cpu"/></span>
                     <h6 className="m-0 short-benefit-title">Dibantu AI</h6>
                   </div>
-                  <p className="mb-0 micro">Mulai Riset, cari ide, nulis, dan promosi <strong>jadi ebih cepat</strong>.</p>
+                  <p className="mb-0 micro">Mulai Riset, cari ide, nulis, dan promosi <strong>jadi ebih cepat</strong>.
+                  </p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="card-lite p-3 h-100">
                   <div className="d-flex align-items-center mb-2">
-                    <span className="feature-icon"><i className="bi bi-flag" /></span>
+                    <span className="feature-icon"><i className="bi bi-flag"/></span>
                     <h6 className="m-0 short-benefit-title">Target Jelas</h6>
                   </div>
                   <p className="mb-0 micro">Fokus ke <strong>penjualan pertama</strong> (model tripwire).</p>
@@ -151,24 +152,29 @@ export default function Page() {
             <div className="kicker mb-2">Kenapa framework ini relevan?</div>
             <div className="card-lite p-4">
               <p className="mb-3">
-                <strong>Framework ini relevan karena dibuat khusus untuk pekerja kantoran yang gajinya mentok, waktunya terbatas, dan sering bingung mulai. </strong>
-                Masalahnya bukan kurang kerja keras, tapi karena <em>salah peta alias gatau arah</em>. Framework NINJA memberikan jalur 14 hari yang realistis dan ringan untuk dikerjakan setelah jam kantor.
+                <strong>Framework ini relevan buat pekerja kantoran dengan permasalahan gaji mentok, waktu terbatas, dan bingung mulai. </strong>
+                Framework NINJA kasih jalur 14 hari yang realistis dan ringan setelah jam kantor.
               </p>
               <div className="row g-4 mt-1">
                 <div className="col-md-6">
-                  <h6 className="text-danger mb-2"><i className="bi bi-emoji-frown me-1" /> Masalah yang sering kamu rasakan</h6>
+                  <h6 className="text-danger mb-2"><i className="bi bi-emoji-frown me-1"/> Masalah yang sering kamu
+                    rasakan</h6>
                   <ul className="pain-pleasure micro mb-0">
-                    <li className="pain-pleasure">Gaji stagnan, biaya hidup naik, <em>stuck</em> dengan 1 sumber penghasilan.</li>
-                    <li className="pain-pleasure">Pulang kerja capek, waktu terbatas, <em>overthinking</em> mulai dari mana.</li>
+                    <li className="pain-pleasure">Gaji stagnan, biaya hidup naik, <em>stuck</em> dengan 1 sumber
+                      penghasilan.
+                    </li>
+                    <li className="pain-pleasure">Pulang kerja capek, waktu terbatas, <em>overthinking</em> mulai dari
+                      mana.
+                    </li>
                     <li className="pain-pleasure">Takut jualan & bingung copywriting/landing page.</li>
                   </ul>
                 </div>
                 <div className="col-md-6">
-                  <h6 className="text-success mb-2"><i className="bi bi-emoji-smile me-1" /> Hasil yang kamu incar</h6>
+                  <h6 className="text-success mb-2"><i className="bi bi-emoji-smile me-1"/> Hasil yang kamu inginkan</h6>
                   <ul className="micro mb-0">
-                    <li className="pain-pleasure">Penjualan pertama dalam ≤14 hari (tripwire Rp15k–149k).</li>
+                    <li className="pain-pleasure">Punya income tambahan yang lebih besar setiap bulan.</li>
                     <li className="pain-pleasure">Rencana harian 1–2 jam: jelas, ringan, terukur.</li>
-                    <li className="pain-pleasure">Kepercayaan diri naik punya “mesin uang otomatis” pemasukan dari rumah.</li>
+                    <li className="pain-pleasure">Punya “mesin uang otomatis” cukup pemasukan dari rumah.</li>
                   </ul>
                 </div>
               </div>
@@ -177,26 +183,36 @@ export default function Page() {
 
           {/* PAIN REMINDER */}
           <section className="mt-4" id="risk">
-            <div className="card-lite p-4" style={{ background:"#1b0f12", border:"1px solid rgba(255,99,99,.18)" }}>
+            <div className="card-lite p-4" style={{background: "#1b0f12", border: "1px solid rgba(255,99,99,.18)"}}>
               <div className="d-flex align-items-start gap-3">
-                <i className="bi bi-exclamation-octagon-fill" style={{ color:"#dc3545" }} />
+                <i className="bi bi-exclamation-octagon-fill" style={{color: "#dc3545"}}/>
                 <div>
                   <h6 className="mb-1 text-danger">Realita yang sering kita rasakan</h6>
                   <p className="micro mb-0">
-                    <strong>Jangan cuma mengandalkan gaji sebagai satu-satunya income.</strong> Kalau ada masalah di kantor, kamu bisa kelabakan tanpa sumber <em>income</em> lain.
-                    Risiko nyata: <b>kebijakan efisiensi</b>, <b>perusahaan bangkrut</b>, atau yang paling parah <b>PHK mendadak</b>.
+                    <strong>Jangan cuma mengandalkan gaji sebagai satu-satunya income.</strong> Kalau ada masalah di
+                    kantor, kamu bisa kelabakan tanpa sumber <em>income</em> lain.
+                    Risiko nyata: <b>kebijakan efisiensi</b>, <b>perusahaan bangkrut</b>, atau yang paling parah <b>PHK
+                    mendadak</b>.
                   </p>
                 </div>
               </div>
             </div>
           </section>
 
-          <div className="card-lite p-3 mb-4 mt-4" style={{ background:"#0f172a", border:"1px solid #38bdf8", color:"#e0f2fe" }}>
-            <span className="small">
-              Agar gak kelabakan saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang dari produk digital.
-              <strong> Maka dari itu, saya buat framework NINJA ini untuk bantu kamu bangun income kedua.</strong>
-            </span>
-          </div>
+          <section className="mt-4" id="risk">
+            <div className="card-lite p-4" style={{background: "#0f172a", border: "1px solid #38bdf8", color: '#e0f2fe'}}>
+              <div className="d-flex align-items-start gap-3">
+                <i className="bi bi-exclamation-octagon-fill" style={{color: "#38bdf8"}}/>
+                <div>
+                  <h6 className="mb-1" style={{ color: '#38bdf8' }}>Solusi untuk kamu</h6>
+                  <p className="micro mb-0">
+                    Agar gak kelabakan saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang dari produk digital.
+                    <strong> Maka dari itu, saya buat framework NINJA ini untuk bantu kamu bangun income kedua.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* WHAT INSIDE / DETAIL BENEFIT */}
           <section className="mt-5">
@@ -206,11 +222,21 @@ export default function Page() {
                 <div className="card-lite p-4 h-100">
                   <h5 className="mb-3 short-benefit-title">Materi Super Lengkap</h5>
                   <ul className="list-check micro mb-0">
-                    <li><strong>Pilih niche tanpa drama</strong> → langsung tahu siapa targetmu, masalah mereka, dan hasil yang mereka cari.</li>
-                    <li><strong>Validasi simpel</strong> → cukup polling mini atau smoke test (20–50 visit) untuk pastikan ide laku, bukan sekadar feeling.</li>
-                    <li><strong>Bikin produk v1.0 cepat</strong> → tinggal pakai template siap pakai + bantuan AI, nggak perlu mulai dari nol.</li>
-                    <li><strong>Atur harga psikologis</strong> → tampilkan harga normal sebagai <em>anchor</em>, lalu kasih <em>early-bird 48 jam</em> biar calon pembeli merasa hemat & takut ketinggalan.</li>
-                    <li><strong>Launch kecil, iterasi cepat</strong> → rilis ke circle kecil, dapetin feedback nyata, langsung upgrade ke versi selanjutnya.</li>
+                    <li><strong>Pilih niche tanpa drama</strong> → langsung tahu siapa targetmu, masalah mereka, dan
+                      hasil yang mereka cari.
+                    </li>
+                    <li><strong>Validasi simpel</strong> → cukup polling mini atau smoke test (20–50 visit) untuk
+                      pastikan ide laku, bukan sekadar feeling.
+                    </li>
+                    <li><strong>Bikin produk v1.0 cepat</strong> → tinggal pakai template siap pakai + bantuan AI, nggak
+                      perlu mulai dari nol.
+                    </li>
+                    <li><strong>Atur harga psikologis</strong> → tampilkan harga normal sebagai <em>anchor</em>, lalu
+                      kasih <em>early-bird 48 jam</em> biar calon pembeli merasa hemat & takut ketinggalan.
+                    </li>
+                    <li><strong>Launch kecil, iterasi cepat</strong> → rilis ke circle kecil, dapetin feedback nyata,
+                      langsung upgrade ke versi selanjutnya.
+                    </li>
                     <li>Dan masih banyak lagi.</li>
                   </ul>
                 </div>
@@ -225,8 +251,12 @@ export default function Page() {
                     <li><strong>Product Creation Planner</strong> → rencana praktis bikin produk dari nol.</li>
                     <li><strong>Prompt ChatGPT siap pakai</strong> → percepat riset, copy, & promosi.</li>
                     <li><strong>Ebook: 20+ Niche Profitable</strong> → ide niche terbukti cuan.</li>
-                    <li><strong>Ebook: 15 Ide Produk Digital Cuan Tinggi</strong> → inspirasi ide produk digital siap jual.</li>
-                    <li><strong>Group Whatsapp Eksklusif</strong> → tempat berdiskusi sesuatu yang jarang diberikan penjual ebook lain, kecuali menjual ecourse.</li>
+                    <li><strong>Ebook: 15 Ide Produk Digital Cuan Tinggi</strong> → inspirasi ide produk digital siap
+                      jual.
+                    </li>
+                    <li><strong>Group Whatsapp Eksklusif</strong> → tempat berdiskusi sesuatu yang jarang diberikan
+                      penjual ebook lain, kecuali menjual ecourse.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -247,17 +277,21 @@ export default function Page() {
                   </ul>
                 </div>
                 <div className="col-md-6">
-                  <div className="p-3 rounded-3" style={{ background:"#0c1730", border:"1px dashed rgba(255,255,255,.15)" }}>
+                  <div className="p-3 rounded-3"
+                       style={{background: "#0c1730", border: "1px dashed rgba(255,255,255,.15)"}}>
                     <div className="d-flex align-items-center">
-                      <i className="bi bi-patch-check-fill text-success fs-3 me-3" />
+                      <i className="bi bi-patch-check-fill text-success fs-3 me-3"/>
                       <div className="micro">
                         <div><strong>Dukungan selamanya</strong> via group whatsapp.</div>
-                        <div className="mt-1"><strong>Free update versi selanjutnya</strong> otomatis saat rilis berikutnya.</div>
+                        <div className="mt-1"><strong>Free update versi selanjutnya</strong> otomatis saat rilis
+                          berikutnya.
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div className="small mt-2" style={{ color:"#E5E7EB" }}>
-                    Tidak ada refund, tapi <strong>tenang</strong> kamu tetap aman karena dapat <strong>akses seumur hidup</strong> + <strong>update gratis</strong>.
+                  <div className="small mt-2" style={{color: "#E5E7EB"}}>
+                    Tidak ada refund, tapi <strong>tenang</strong> kamu tetap aman karena dapat <strong>akses seumur
+                    hidup</strong> + <strong>update gratis</strong>.
                   </div>
                 </div>
               </div>
@@ -316,8 +350,10 @@ export default function Page() {
 
                   {/* teks kuota tetap center */}
                   <div className="text-center micro mt-2">
-                    <span id="quotaText" className="d-lg-block d-none">Kuota terbatas hanya untuk <span className="fw-bold">100 pembeli</span> pertama <br/> jangan sampai ketinggalan.</span>
-                    <span id="quotaText" className="d-lg-none d-block">Kuota terbatas hanya untuk <span className="fw-bold">100 pembeli</span> pertama jangan sampai ketinggalan.</span>
+                    <span id="quotaText" className="d-lg-block d-none">Kuota terbatas hanya untuk <span
+                      className="fw-bold">100 pembeli</span> pertama <br/> jangan sampai ketinggalan.</span>
+                    <span id="quotaText" className="d-lg-none d-block">Kuota terbatas hanya untuk <span
+                      className="fw-bold">100 pembeli</span> pertama jangan sampai ketinggalan.</span>
                   </div>
                 </div>
               </div>
@@ -382,12 +418,14 @@ export default function Page() {
               </div>
               <div className="accordion-item bg-transparent text-light border-secondary">
                 <h2 className="accordion-header">
-                  <button className="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
+                  <button className="accordion-button collapsed bg-transparent text-light" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#q5">
                     Kalau saya bingung gimana?
                   </button>
                 </h2>
                 <div id="q5" className="accordion-collapse collapse" data-bs-parent="#faq">
-                  <div className="accordion-body micro">Tenang, ada grup diskusi di whatsapp untuk tanya jawab & sharing.
+                  <div className="accordion-body micro">Tenang, ada grup diskusi di whatsapp untuk tanya jawab &
+                    sharing.
                   </div>
                 </div>
               </div>
@@ -422,7 +460,7 @@ export default function Page() {
 
       {/* Sticky CTA mobile */}
       <div className="sticky-cta d-md-none p-2">
-        <div className="d-flex align-items-center justify-content-between gap-2 mb-3">
+        <div className="d-flex align-items-center justify-content-between gap-2 mb-2">
           <div className="micro ps-2">
             <div className="fw-bold">Early-Bird <span className="text-warning">Rp79.000</span></div>
             <div style={{color: '#E5E7EB'}}>
@@ -436,7 +474,7 @@ export default function Page() {
                   <span className="cd-label">Jam</span>
                 </div>
                 <div className="cd-seg">
-                  <span id="cd-m-mini" data-cd="m" className="cd-num">00</span>
+                <span id="cd-m-mini" data-cd="m" className="cd-num">00</span>
                   <span className="cd-label">Menit</span>
                 </div>
                 <div className="cd-seg">
