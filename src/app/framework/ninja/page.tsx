@@ -9,7 +9,7 @@ const SEED_CLAIMED = 15;
 
 export default function Page() {
   useEffect(() => {
-    const DEADLINE = new Date("2025-08-29T23:59:59+07:00").getTime();
+    const DEADLINE = new Date("2025-08-30T23:59:59+07:00").getTime();
     const wrap = document.getElementById("countdownWrap");
 
     const setAll = (selector: string, val: string) => {
@@ -174,7 +174,7 @@ export default function Page() {
                   <ul className="micro mb-0">
                     <li className="pain-pleasure">Punya income tambahan yang lebih besar setiap bulan.</li>
                     <li className="pain-pleasure">Rencana harian 1–2 jam: jelas, ringan, terukur.</li>
-                    <li className="pain-pleasure">Punya “mesin uang otomatis” cukup pemasukan dari rumah.</li>
+                    <li className="pain-pleasure">Punya “mesin uang otomatis” cukup dikerjakan dari rumah.</li>
                   </ul>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function Page() {
               <div className="d-flex align-items-start gap-3">
                 <i className="bi bi-exclamation-octagon-fill" style={{color: "#38bdf8"}}/>
                 <div>
-                  <h6 className="mb-1" style={{ color: '#38bdf8' }}>Solusi untuk kamu</h6>
+                  <h6 className="mb-1" style={{ color: '#38bdf8' }}>Solusi nyata untuk kamu</h6>
                   <p className="micro mb-0">
                     Agar gak kelabakan saat kondisi kantor berubah, mulailah bangun sumber income kedua sekarang dari produk digital.
                     <strong> Maka dari itu, saya buat framework NINJA ini untuk bantu kamu bangun income kedua.</strong>
@@ -222,22 +222,15 @@ export default function Page() {
                 <div className="card-lite p-4 h-100">
                   <h5 className="mb-3 short-benefit-title">Materi Super Lengkap</h5>
                   <ul className="list-check micro mb-0">
-                    <li><strong>Pilih niche tanpa drama</strong> → langsung tahu siapa targetmu, masalah mereka, dan
-                      hasil yang mereka cari.
+                    <li><strong>Pilih niche tanpa drama</strong> → pilih niche sesuai diri kamu untuk nentuin target audiens.
                     </li>
-                    <li><strong>Validasi simpel</strong> → cukup polling mini atau smoke test (20–50 visit) untuk
-                      pastikan ide laku, bukan sekadar feeling.
+                    <li><strong>Validasi simpel</strong> → pastikan ide dibutuhkan pasar bukan tebak-tebakan.
                     </li>
-                    <li><strong>Bikin produk v1.0 cepat</strong> → tinggal pakai template siap pakai + bantuan AI, nggak
-                      perlu mulai dari nol.
+                    <li><strong>Bikin produk v1.0 cepat</strong> → bikin produk versi 1.0 pakai template dibantu AI.
                     </li>
-                    <li><strong>Atur harga psikologis</strong> → tampilkan harga normal sebagai <em>anchor</em>, lalu
-                      kasih <em>early-bird 48 jam</em> biar calon pembeli merasa hemat & takut ketinggalan.
+                    <li><strong>Atur harga psikologis</strong> → trik early-bird biar cepat closing.
                     </li>
-                    <li><strong>Launch kecil, iterasi cepat</strong> → rilis ke circle kecil, dapetin feedback nyata,
-                      langsung upgrade ke versi selanjutnya.
-                    </li>
-                    <li>Dan masih banyak lagi.</li>
+                    <li>Dan masih banyak lagi materinya.</li>
                   </ul>
                 </div>
               </div>
@@ -245,18 +238,13 @@ export default function Page() {
                 <div className="card-lite p-4 h-100">
                   <h5 className="mb-3 short-benefit-title">Bonus Spesial</h5>
                   <ul className="list-check micro mb-0">
-                    <li><strong>Goal Mapping Sheet</strong> → kunci tujuan & alasan pribadi biar konsisten.</li>
-                    <li><strong>Niche Selector Matrix</strong> → pilih niche tanpa bingung.</li>
                     <li><strong>Market Validation Checklist</strong> → panduan validasi ide sebelum rilis.</li>
-                    <li><strong>Product Creation Planner</strong> → rencana praktis bikin produk dari nol.</li>
                     <li><strong>Prompt ChatGPT siap pakai</strong> → percepat riset, copy, & promosi.</li>
                     <li><strong>Ebook: 20+ Niche Profitable</strong> → ide niche terbukti cuan.</li>
-                    <li><strong>Ebook: 15 Ide Produk Digital Cuan Tinggi</strong> → inspirasi ide produk digital siap
-                      jual.
-                    </li>
                     <li><strong>Group Whatsapp Eksklusif</strong> → tempat berdiskusi sesuatu yang jarang diberikan
                       penjual ebook lain, kecuali menjual ecourse.
                     </li>
+                    <li>Dan masih banyak lagi bonus lainnya.</li>
                   </ul>
                 </div>
               </div>
