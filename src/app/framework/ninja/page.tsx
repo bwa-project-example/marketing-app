@@ -9,7 +9,7 @@ const SEED_CLAIMED = 15;
 
 export default function Page() {
   useEffect(() => {
-    const DEADLINE = new Date("2025-08-30T23:59:59+07:00").getTime();
+    const DEADLINE = new Date("2025-08-31T23:59:59+07:00").getTime();
     const wrap = document.getElementById("countdownWrap");
 
     const setAll = (selector: string, val: string) => {
